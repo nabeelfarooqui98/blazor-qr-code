@@ -36,5 +36,12 @@ namespace QRMaker.Server.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet]
+        [Route("Text")]
+        public string MyMethod()
+        {
+            return "hello";
+        }
     }
 }

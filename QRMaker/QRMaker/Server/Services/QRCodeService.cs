@@ -14,7 +14,7 @@ namespace QRMaker.Server.Services
             QRCodeData qrCodeData = qrGenerator.CreateQrCode("The text which should be encoded.", QRCodeGenerator.ECCLevel.Q);
             Base64QRCode qrCode = new Base64QRCode(qrCodeData);
             string qrCodeImageAsBase64 = qrCode.GetGraphic(20);
-            return qrCodeImageAsBase64;
+            return "hello";
         }
     }
 }
