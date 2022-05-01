@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using QRMaker.Server.Services;
 using System.Linq;
 
 namespace QRMaker.Server
@@ -25,6 +26,8 @@ namespace QRMaker.Server
 
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            services.AddScoped<IQRCodeService, QRCodeService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

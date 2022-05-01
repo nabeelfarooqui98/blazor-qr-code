@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "D/PbWLEjj6AcWdA6b25pDDHlFwEnM6cozolyID/U4Uc4L25DHtkXMAWqL3KbdYwjs21KTpIkhjhRYWL80MdHnw==",
+  "dgSpecHash": "9KBK/qE8W9npFRGP9OKcrhR8JavtldzK9qKJ803k4+RWriqV1Otjw3WmbW/pVJ39zv45FBLsauTqIRpELTUodw==",
   "success": true,
   "projectFilePath": "D:\\Projects\\blazor-qr-code\\QRMaker\\QRMaker\\Server\\QRMaker.Server.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,10 @@
     "C:\\Users\\Nabeel Farooqui\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\Nabeel Farooqui\\.nuget\\packages\\microsoft.jsinterop\\5.0.16\\microsoft.jsinterop.5.0.16.nupkg.sha512",
     "C:\\Users\\Nabeel Farooqui\\.nuget\\packages\\microsoft.jsinterop.webassembly\\5.0.16\\microsoft.jsinterop.webassembly.5.0.16.nupkg.sha512",
+    "C:\\Users\\Nabeel Farooqui\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\Nabeel Farooqui\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\Nabeel Farooqui\\.nuget\\packages\\qrcoder\\1.4.3\\qrcoder.1.4.3.nupkg.sha512",
+    "C:\\Users\\Nabeel Farooqui\\.nuget\\packages\\system.drawing.common\\5.0.3\\system.drawing.common.5.0.3.nupkg.sha512",
     "C:\\Users\\Nabeel Farooqui\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
     "C:\\Users\\Nabeel Farooqui\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512"
   ],
