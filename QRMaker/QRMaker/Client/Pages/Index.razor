@@ -6,7 +6,12 @@
 <button class="btn btn-primary" @onclick="CreateQR">Click me</button>
 Welcome to your new app.
 
-@Image
+
+<div>
+    <img src="data:image/png;base64, @Image" alt="Red dot" />
+</div>
+
+
 
 <SurveyPrompt Title="How is Blazor working for you?" />
 
@@ -17,13 +22,18 @@ Welcome to your new app.
     protected async Task CreateQR()
     {
 
-        string content = "";
+        //string content = "";
 
-        var data = new StringContent(content);
+        //        var data = new StringContent(content);
+        var request = new QRCode
+        {
+            content = "NABEEL"
+        };
 
-        var response = await Http.GetFromJsonAsync<string>("WeatherForcast/Text");
-        //var response = await Http.PostAsync("QRCode/Create", data);
-        //var qrcode = await response.Content.ReadFromJsonAsync<QRCode>();
-        //Image = qrcode.Base64QRCode;
+        //var response = await Http.GetFromJsonAsync<string>("WeatherForcast/Text");
+        var response = await Http.PostAsJsonAsync("QRCode/Create", request);
+        
+        var qrcode = await response.Content.ReadFromJsonAsync<QRCode>();
+        Image = qrcode.Base64QRCode;
     }
 }

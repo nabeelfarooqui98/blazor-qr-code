@@ -195,13 +195,13 @@
       "mscorlib.dll": "sha256-RvlJgNNOrNqPypkseRqbe69kNd7hnKW0u6Bmt1305d4=",
       "netstandard.dll": "sha256-Ttq9E+RchoLMvC6pS8ktXuaz1r51vG7wSm1emPBPRrk=",
       "System.Private.CoreLib.dll": "sha256-7y7hjQvy9SAXBmGIcqlrFwPQioCDSax5WwjUDJYfRAk=",
-      "QRMaker.Shared.dll": "sha256-GYCdGOoWSBuupAcQbAUDPD4IoLkCvA4dDnQ8QRSSPX8=",
-      "QRMaker.Client.dll": "sha256-loILgO1ASTxtkMxDWhUs0TX6j6SqLjgtMko7sQ9wBdc="
+      "QRMaker.Shared.dll": "sha256-d5ogeSdMOCXMou2KXvEbY5\/IltkHbYkCcB+pbWYUbdc=",
+      "QRMaker.Client.dll": "sha256-Rw329CoURbVcjhVnArLx7D9AbZkMUZ6FjS3GhaalMw8="
     },
     "lazyAssembly": null,
     "pdb": {
-      "QRMaker.Shared.pdb": "sha256-\/0XNlZoscH7FeL2f3ysvPGVwa1Bbzb0dgsF2RcJn+Yw=",
-      "QRMaker.Client.pdb": "sha256-zETV2D9yaYMXMPoToFpgkVrQ2+Tb7U7lsNF5Zsl695U="
+      "QRMaker.Shared.pdb": "sha256-kD1QeQgWqHn+0GV9zJu7BrJbTbhdZXOD0FkrOBEJXtI=",
+      "QRMaker.Client.pdb": "sha256-3DrI5EatZ1hQ4XO6SWfiUQvR4XSLVefQCU4ptFEuTT4="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-jWuZI+z9wt0OfCMj+W5wh3HN+Ye6efC6YfCUWbBHBa8=",

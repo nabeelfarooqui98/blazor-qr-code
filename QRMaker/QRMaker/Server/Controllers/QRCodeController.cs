@@ -22,14 +22,22 @@ namespace QRMaker.Server.Controllers
         // GET: QRCodeController/Create
         [HttpPost]
         [Route("Create")]
-        public ActionResult<string> Create([FromBody] string content)
+        public ActionResult<string> Create([FromBody] QRCode QRCode)
         {
-            string res = service.CreateQRCode(content);
+            string res = service.CreateQRCode(QRCode.content);
 
             return Ok(new QRCode
             {
-                Base64QRCode = "HELLO"
+                content = QRCode.content,
+                Base64QRCode = res
             });
         }
+        [HttpGet]
+        [Route("Text")]
+        public string MyMethod()
+        {
+            return "hello";
+        }
+
     }
 }

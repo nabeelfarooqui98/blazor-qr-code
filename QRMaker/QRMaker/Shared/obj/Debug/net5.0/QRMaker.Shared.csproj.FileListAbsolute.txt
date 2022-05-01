@@ -2,7 +2,6 @@ D:\Projects\blazor-qr-code\QRMaker\QRMaker\Shared\bin\Debug\net5.0\QRMaker.Share
 D:\Projects\blazor-qr-code\QRMaker\QRMaker\Shared\bin\Debug\net5.0\QRMaker.Shared.dll
 D:\Projects\blazor-qr-code\QRMaker\QRMaker\Shared\bin\Debug\net5.0\ref\QRMaker.Shared.dll
 D:\Projects\blazor-qr-code\QRMaker\QRMaker\Shared\bin\Debug\net5.0\QRMaker.Shared.pdb
-D:\Projects\blazor-qr-code\QRMaker\QRMaker\Shared\obj\Debug\net5.0\QRMaker.Shared.csproj.AssemblyReference.cache
 D:\Projects\blazor-qr-code\QRMaker\QRMaker\Shared\obj\Debug\net5.0\QRMaker.Shared.GeneratedMSBuildEditorConfig.editorconfig
 D:\Projects\blazor-qr-code\QRMaker\QRMaker\Shared\obj\Debug\net5.0\QRMaker.Shared.AssemblyInfoInputs.cache
 D:\Projects\blazor-qr-code\QRMaker\QRMaker\Shared\obj\Debug\net5.0\QRMaker.Shared.AssemblyInfo.cs

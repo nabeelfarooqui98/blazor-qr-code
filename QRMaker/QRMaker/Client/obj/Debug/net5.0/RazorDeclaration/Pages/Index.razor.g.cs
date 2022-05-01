@@ -98,21 +98,26 @@ using QRMaker.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 14 "D:\Projects\blazor-qr-code\QRMaker\QRMaker\Client\Pages\Index.razor"
+#line 19 "D:\Projects\blazor-qr-code\QRMaker\QRMaker\Client\Pages\Index.razor"
        
     public string Image { get; set; }
 
     protected async Task CreateQR()
     {
 
-        string content = "";
+        //string content = "";
 
-        var data = new StringContent(content);
+        //        var data = new StringContent(content);
+        var request = new QRCode
+        {
+            content = "NABEEL"
+        };
 
-        var response = await Http.GetFromJsonAsync<string>("WeatherForcast/Text");
-        //var response = await Http.PostAsync("QRCode/Create", data);
-        //var qrcode = await response.Content.ReadFromJsonAsync<QRCode>();
-        //Image = qrcode.Base64QRCode;
+        //var response = await Http.GetFromJsonAsync<string>("WeatherForcast/Text");
+        var response = await Http.PostAsJsonAsync("QRCode/Create", request);
+        
+        var qrcode = await response.Content.ReadFromJsonAsync<QRCode>();
+        Image = qrcode.Base64QRCode;
     }
 
 #line default
