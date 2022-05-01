@@ -1,7 +1,8 @@
-﻿@page "/qrcode"
+﻿@page "/"
+@page "/qrcode"
 @inject HttpClient Http
 @using QRMaker.Shared
-<h1>Enter a URL or any text below to generate a QR Code</h1>
+<h3>Enter a URL or any text below to generate a QR Code</h3>
 
 <input @bind="Text" />
 <button class="btn btn-primary" @onclick="CreateQR">Click me</button>
@@ -13,12 +14,8 @@
 }
 @if (!string.IsNullOrEmpty(Result))
 {
-    <h1>Unable to create QR code.</h1>
+    <h3>Unable to create QR code. @Result</h3>
 }
-
-
-
-
 
 
 
